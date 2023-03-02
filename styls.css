@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header .logo {
+  position: relative;
+  max-width: 220px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.content .imgbox {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 50vw;
+  padding: 50px;
+  margin-top: 50px;
+  font-size: 40vh;
+  text-align: right;
+}
+.content .imgbox img {
+  max-width: 340px;
+}
+.giff {
+  rotate: -30deg;
+}
